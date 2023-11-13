@@ -7,7 +7,7 @@ jobs:
     runs-on: main
     strategy:
       matrix:
-        image: [gsmelford/mediahurborapi:latest, gsmelford/mediahurborbot:latest]
+        image: [ "gsmelford/mediahurborapi:latest", "gsmelford/mediahurborbot:latest"]
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
